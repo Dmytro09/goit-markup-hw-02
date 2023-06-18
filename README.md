@@ -1,1 +1,2 @@
-# goit-markup-hw-02
+# goit-markup-hw-1
+Copy of hw-1
