@@ -1,0 +1,102 @@
+/* Common Styles */
+body {
+    font-family: Roboto;
+}
+/**
+  |============================
+  | Header Styles
+  |============================
+*/
+.header {
+    background-color: #FFF;
+}
+
+.header-nav {}
+
+.header-logo {color: #2E2F42;}
+span {color: #4D5AE5;}
+
+.header-list {
+    font-size: 18px;
+        font-family: Raleway;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+.header-items {
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        color: #2E2F42;
+}
+.header-link {
+    font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        color: #434455;
+}
+/**
+  |============================
+  | Hero Style
+  |============================
+*/
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-name {
+    font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+        color: #FFF;
+}
+
+.hero-button {
+    border-radius: 4px;
+        background-color:#4D5AE5;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        color: #FFF;
+}
+/**
+  |============================
+  | Features Styles
+  |============================
+*/
+.features-section {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        color: #2E2F42;
+}
+
+.feature-items {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        color: #434455;
+}
+/**
+  |============================
+  | What are we doing/Duties Styles
+  |============================
+*/
+.duties {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.duties-computer {}
+
+.duties-phones {}
+
+.duties-software {}
