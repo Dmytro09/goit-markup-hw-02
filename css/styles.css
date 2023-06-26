@@ -2,7 +2,7 @@
 
 /* Common Styles */
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -22,7 +22,6 @@ body {
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
-    line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -32,7 +31,6 @@ span {color: #4D5AE5;}
     font-size: 18px;
         font-family: Raleway;
         font-weight: 800;
-        line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
@@ -40,28 +38,18 @@ span {color: #4D5AE5;}
 .header-items {
     font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
         letter-spacing: 0.32px;
         color: #2E2F42;
 }
 .header-link {
     font-size: 16px;
-        line-height: 24px;
         letter-spacing: 0.32px;
         color: #434455;
 }
 .header-link-contacts:hover {
-display: flex;
-    width: 67px;
-    align-items: flex-start;
-    gap: 40px;
     color: #404bbf
 }
 .header-link-contacts:active {
-    display: flex;
-        width: 67px;
-        align-items: flex-start;
-        gap: 40px;
         color: #404bbf
 }
 /**
@@ -76,15 +64,12 @@ display: flex;
 .hero-name {
     font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
         letter-spacing: 1.12px;
         color: #FFF;
 }
 
 .hero-button {
-    border-radius: 4px;
         background-color:#4D5AE5;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: #FFF;
         cursor: pointer;
 }
@@ -96,14 +81,12 @@ display: flex;
 .features-section {
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
         letter-spacing: 0.4px;
         color: #2E2F42;
 }
 
 .feature-items {
         font-size: 16px;
-        line-height: 24px;
         letter-spacing: 0.32px;
         color: #434455;
 }
@@ -113,10 +96,8 @@ display: flex;
   |============================
 */
 .duties {
-        text-align: center;
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
         color: #2E2F42;
@@ -130,10 +111,8 @@ display: flex;
   |============================
 */
 .our-team {
-        text-align: center;
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
         color: #2E2F42;
@@ -142,18 +121,14 @@ display: flex;
 .employee-photo {}
 
 .employee-name {
-        text-align: center;
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
         letter-spacing: 0.4px;
         color: #2E2F42;
 }
 
 .employee-position {
-        text-align: center;
         font-size: 16px;
-        line-height: 24px;
         letter-spacing: 0.32px;
         color: #434455;
 }
@@ -170,7 +145,6 @@ display: flex;
         font-size: 18px;
         font-family: Raleway;
         font-weight: 800;
-        line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         color: var(--cloud, #F4F4FD);
@@ -180,14 +154,12 @@ span {
         font-size: 18px;
         font-family: Raleway;
         font-weight: 800;
-        line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 
 .footer-mission {
         font-size: 16px;
-        line-height: 24px;
         letter-spacing: 0.32px;
         color: #F4F4FD;
 }
@@ -199,7 +171,6 @@ span {
 .project-main-button {
         font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
         letter-spacing: 0.64px;
         background-color: #404BBF;
         color: #FFF;
@@ -209,7 +180,6 @@ span {
 .project-button {
         font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
         letter-spacing: 0.64px;
         color: #4D5AE5;
         background-color: #F4F4FD;
@@ -223,14 +193,12 @@ span {
 .company-services {
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
         letter-spacing: 0.4px;
         color: #2E2F42;
 }
 
 .company-depts {
         font-size: 16px;
-        line-height: 24px;
         letter-spacing: 0.32px;
         color: #434455;
 }
