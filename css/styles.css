@@ -1,8 +1,9 @@
 :root {
-        --text-color: #2E2F42;
+        --text-color:#4D5AE5;;
         --primary-white-color: #ffffff;
         --primary-font: "Roboto", sans-serif;
-        --logo-color: #4D5AE5;
+        --logo-color: #2E2F42;
+        #4D5AE5
 
 }
 
@@ -17,14 +18,15 @@ body {
   | Header Styles-index
   |============================
 */
-.header {
+.header-section {
     background-color: #FFF;
-font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 
 }
 
-.nav-list {
+.header-nav-list {
         text-decoration: none;
+        list-style: none;
 }
 
 .header-link-logo {
@@ -60,7 +62,7 @@ font-family: "Raleway", sans-serif;
 .header-link {
     font-size: 16px;
         letter-spacing: 0.32px;
-        color: #434455;
+        color: #2E2F42;
         text-decoration: none;
 }
 .header-link-contacts:hover {
@@ -76,7 +78,9 @@ font-family: "Raleway", sans-serif;
 
 .address-items {
         text-decoration: none;
+        font-style: normal
 }
+
 /**
   |============================
   | Hero Style-index
