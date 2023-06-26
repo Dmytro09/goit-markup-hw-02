@@ -2,14 +2,14 @@
         --text-color: #2E2F42;
         --primary-white-color: #ffffff;
         --primary-font: "Roboto", sans-serif;
-        --logo-color: #4D5AE5;
+        --logo-color: #2E2F42;
 
 }
 
 /* Common Styles */
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color: #2E2F42;
     background-color: #FFFFFF;
 }
 /**
@@ -23,10 +23,11 @@ font-family: "Raleway", sans-serif;
 
 }
 
-.header-nav {}
+.header-nav {
+        text-decoration: none;
+}
 
 .header-link-logo {
-    color: #2E2F42;
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 0.54px;
@@ -36,7 +37,7 @@ font-family: "Raleway", sans-serif;
     text-decoration: none;
 
 }
-span {color: #4D5AE5;}
+.header-name {color: #4D5AE5;}
 
 .header-list {
     font-size: 18px;
@@ -71,7 +72,7 @@ span {color: #4D5AE5;}
 
 }
 
-.address {
+.address-items {
         text-decoration: none;
 }
 /**
