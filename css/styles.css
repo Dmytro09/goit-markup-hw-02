@@ -1,4 +1,9 @@
-:root
+:root {
+        --text-color: #2E2F42;
+        --primary-white-color: #ffffff;
+        --primary-font: "Roboto", sans-serif;
+
+}
 
 /* Common Styles */
 body {
