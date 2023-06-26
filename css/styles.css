@@ -2,6 +2,7 @@
         --text-color: #2E2F42;
         --primary-white-color: #ffffff;
         --primary-font: "Roboto", sans-serif;
+        --logo-color: #4D5AE5;
 
 }
 
@@ -25,10 +26,13 @@ body {
 .header-logo {
     color: #2E2F42;
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    line-height: 1.17;
+    color: var(--logo-color);
+
 }
 span {color: #4D5AE5;}
 
