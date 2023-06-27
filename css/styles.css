@@ -244,6 +244,7 @@ body {
         background-color: #404BBF;
         color: #FFF;
         cursor: pointer;
+
 }
 
 .project-button {
@@ -255,8 +256,12 @@ body {
         cursor: pointer;
         font-family: inherit;
         line-height: 1.5;
-
 }
+
+.project-button-list {
+        list-style: none;
+}
+
 /**
   |============================
   | Projects Styles-Portfolio
@@ -276,6 +281,12 @@ body {
         color: var(--secondary-color);
         line-height: 1.5;
         letter-spacing: 0.02em;
-        
-        
+          
+}
+
+.company-services-list {
+        list-style: none;
+}
+.company-illustrations {
+        text-decoration: none;
 }
