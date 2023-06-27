@@ -100,6 +100,7 @@ body {
         color: #FFF;
         line-height: 1.07;
         text-align: center;
+        
 }
 
 .hero-button {
@@ -110,6 +111,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        font-weight: 500;
 }
 
 .hero-button:hover {background-color: #404BBF;}
@@ -125,12 +127,14 @@ body {
         font-weight: 500;
         letter-spacing: 0.4px;
         color: #2E2F42;
+        line-height: 1.2;
 }
 
 .feature-items {
         font-size: 16px;
         letter-spacing: 0.32px;
         color: #434455;
+        line-height: 1.5;
 }
 /**
   |============================
@@ -143,6 +147,10 @@ body {
         letter-spacing: 0.72px;
         text-transform: capitalize;
         color: #2E2F42;
+        line-height: 1.11;
+        text-align: center;
+        line-height: 1.11;
+        text-align: center;
 }
 
 .duties-photo {}
@@ -152,12 +160,19 @@ body {
   | Our Team Styles-index
   |============================
 */
+
+.our-team-section {
+        background-color: #F4F4FD;
+}
+
 .our-team {
         font-size: 36px;
         font-weight: 700;
         letter-spacing: 0.72px;
         text-transform: capitalize;
         color: #2E2F42;
+        line-height: 1.11;
+        text-align: center;
 }
 
 .employee-photo {}
@@ -167,13 +182,19 @@ body {
         font-weight: 500;
         letter-spacing: 0.4px;
         color: #2E2F42;
+        line-height: 1.2;
 }
 
 .employee-job {
         font-size: 16px;
         letter-spacing: 0.32px;
         color: #434455;
+        line-height: 1.5;
 }
+.employee-list {
+        background-color: #FFFFFF;
+}
+
 /**
   |============================
   | Footer Section Styles-index
@@ -190,21 +211,23 @@ body {
         font-weight: 800;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        color: var(--cloud, #F4F4FD);
+        color: var(--cloud, #4d5ae5);
+        font-family: "Raleway", sans-serif;
+        line-height: 1.17;
+        text-decoration: none;
+
 }
-span {
-        color: #4D5AE5;
-        font-size: 18px;
-        font-family: Raleway;
-        font-weight: 800;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+
+.footer-logo-studio {
+        color: #f4f4fd;
+
 }
 
 .footer-mission {
         font-size: 16px;
         letter-spacing: 0.32px;
         color: #F4F4FD;
+        line-height: 1.5;
 }
 /**
   |============================
