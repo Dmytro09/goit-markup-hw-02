@@ -3,7 +3,6 @@
         --primary-white-color: #ffffff;
         --primary-font: "Roboto", sans-serif;
         --logo-color: #2E2F42;
-        #4D5AE5
 
 }
 
@@ -18,67 +17,44 @@ body {
   | Header Styles-index
   |============================
 */
-.header-section {
-    background-color: #FFF;
-    font-family: "Raleway", sans-serif;
 
+.header-nav-list {}
+
+.header-link-logo {
+        color: var(--text-color);
+                font-size: 18px;
+                font-family: Raleway;
 }
 
-.header-nav-list {
+.link {
         text-decoration: none;
+}
+
+.header-name {
+        color: var(--logo-color);
+}
+
+.header-list {}
+
+.list {
         list-style: none;
 }
 
-.header-link-logo {
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    line-height: 1.17;
-    color: var(--text-color);
-    text-decoration: none;
+.header-items {}
 
-}
-.header-name {
- color: var(--logo-color);
-}
-
-.header-list {
-    font-size: 18px;
-        font-family: Raleway;
-        font-weight: 800;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        text-decoration: none;
-}
-
-.header-items {
-    font-size: 16px;
-        font-weight: 500;
-        letter-spacing: 0.32px;
-        color: #2E2F42;
-        text-decoration: none;
-}
 .header-link {
-    font-size: 16px;
-        letter-spacing: 0.32px;
-        color: #2E2F42;
-        text-decoration: none;
+        font-size: 16px;
+                color: #2E2F42;
 }
-.header-link-contacts:hover {
-    color: #404bbf;
-    text-decoration: none;
-    
-}
-.header-link-contacts:active {
-        color: #404bbf;
-        text-decoration: none;
-
-}
+.header-link: 
 
 .address-items {
         text-decoration: none;
-        font-style: normal
+}
+
+.address-link {
+        text-decoration: none;
+        color: #434455;
 }
 
 /**
@@ -101,7 +77,9 @@ body {
         background-color:#4D5AE5;
         color: #FFF;
         cursor: pointer;
+
 }
+
 /**
   |============================
   | Features Styles-index
