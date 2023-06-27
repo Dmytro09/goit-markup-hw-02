@@ -3,6 +3,7 @@
         --primary-white-color: #ffffff;
         --primary-font: "Roboto", sans-serif;
         --logo-color: #2E2F42;
+        --background-color: #F4F4FD; 
 
 }
 
@@ -249,9 +250,12 @@ body {
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0.64px;
-        color: #4D5AE5;
-        background-color: #F4F4FD;
-        cursor: pointer
+        color: var(--text-color);
+        background-color: var(--background-color);
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.5;
+
 }
 /**
   |============================
