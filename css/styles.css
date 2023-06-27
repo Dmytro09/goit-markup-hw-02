@@ -61,11 +61,14 @@ body {
 
 .address-items {
         text-decoration: none;
+        font-style: normal;
+        
 }
 
 .address-link {
         text-decoration: none;
         color: #434455;
+        font-style: normal;
 }
 
 /**
