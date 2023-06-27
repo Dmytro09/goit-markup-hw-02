@@ -11,7 +11,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
     background-color: #FFFFFF;
-    color: #434455
+    color: #434455;
 }
 /**
   |============================
@@ -27,7 +27,7 @@ body {
         font-family: "Raleway", sans-serif;
         text-decoration: none;
         font-weight: 800;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 
@@ -51,7 +51,11 @@ body {
 
 .header-link {
         font-size: 16px;
-                color: #2E2F42;
+        color: #2E2F42;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
 }
 .header-link: 
 
