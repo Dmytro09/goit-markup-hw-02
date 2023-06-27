@@ -4,7 +4,7 @@
         --primary-font: "Roboto", sans-serif;
         --logo-color: #2E2F42;
         --background-color: #F4F4FD; 
-
+        --secondary-color: #434455;
 }
 
 /* Common Styles */
@@ -265,12 +265,17 @@ body {
 .company-services {
         font-size: 20px;
         font-weight: 500;
-        letter-spacing: 0.4px;
-        color: #2E2F42;
+        color: var(--logo-color)
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        
 }
 
 .company-depts {
         font-size: 16px;
-        letter-spacing: 0.32px;
-        color: #434455;
+        color: var(--secondary-color);
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        
+        
 }
