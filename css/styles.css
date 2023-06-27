@@ -69,9 +69,15 @@ body {
         text-decoration: none;
         color: #434455;
         font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 .company-address {
+        font-style: normal;
+}
+
+.address-list {
         font-style: normal;
 }
 
