@@ -55,9 +55,9 @@ body {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-
 }
-.header-link: 
+.header-link:hover {color: #404BBF;}
+.header-link:focus {color:#404BBF}
 
 .address-items {
         text-decoration: none;
@@ -72,6 +72,9 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
+.address-link:hover {color: #404BBF}
+.address-link:focus {color:#404BBF}
 
 .company-address {
         font-style: normal;
