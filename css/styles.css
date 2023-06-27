@@ -253,7 +253,7 @@ body {
         color: var(--text-color);
         background-color: var(--background-color);
         cursor: pointer;
-        font-family: "Roboto", sans-serif;
+        font-family: inherit;
         line-height: 1.5;
 
 }
