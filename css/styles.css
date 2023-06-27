@@ -94,18 +94,26 @@ body {
 }
 
 .hero-name {
-    font-size: 56px;
+        font-size: 56px;
         font-weight: 700;
         letter-spacing: 1.12px;
         color: #FFF;
+        line-height: 1.07;
+        text-align: center;
 }
 
 .hero-button {
         background-color:#4D5AE5;
         color: #FFF;
         cursor: pointer;
-
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
 }
+
+.hero-button:hover {background-color: #404BBF;}
+.hero-button:focus {background-color: #404BBF;}
 
 /**
   |============================
