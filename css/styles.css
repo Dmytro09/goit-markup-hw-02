@@ -245,7 +245,18 @@ body {
         color: #FFF;
         cursor: pointer;
         line-height: 1.5;
+        font-family: "Roboto", sans-serif;
 
+}
+
+.project-button:hover {
+        background-color: #404BBF;
+        color: #FFF;
+}
+
+.project-button:focus {
+        background-color: #404BBF;
+        color: #FFF;
 }
 
 .project-button {
@@ -257,6 +268,7 @@ body {
         cursor: pointer;
         font-family: inherit;
         line-height: 1.5;
+        font-family: "Roboto", sans-serif;
 }
 
 .project-button-list {
