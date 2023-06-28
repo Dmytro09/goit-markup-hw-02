@@ -237,17 +237,6 @@ body {
   | Buttons Styles-Portfolio
   |============================
 */
-.project-main-button {
-        font-size: 16px;
-        font-weight: 500;
-        letter-spacing: 0.64px;
-        background-color: #404BBF;
-        color: #FFF;
-        cursor: pointer;
-        line-height: 1.5;
-        font-family: "Roboto", sans-serif;
-
-}
 
 .project-button:hover {
         background-color: #404BBF;
