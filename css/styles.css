@@ -7,6 +7,7 @@
         --secondary-color: #434455;
         --button-color: #FFF;
         --button-background:#404BBF;
+        --hero-button-background:#4D5AE5; 
 }
 
 /* Common Styles */
@@ -92,7 +93,7 @@ body {
   |============================
 */
 .hero-section {
-    background-color: var(--secondary-color);
+    background-color: var(--logo-color);
 }
 
 .hero-name {
@@ -106,7 +107,7 @@ body {
 }
 
 .hero-button {
-        background-color:var();
+        background-color:var(--hero-button-background);
         color: var(--button-color);
         cursor: pointer;
         font-family: "Roboto", sans-serif;
@@ -212,7 +213,7 @@ body {
         font-weight: 800;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--text-color);
+        color: var(--background-color);
         font-family: "Raleway", sans-serif;
         line-height: 1.17;
         text-decoration: none;
